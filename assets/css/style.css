@@ -470,7 +470,7 @@ input:focus,
 
 .c.grid {
   grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding-bottom: 40px;
 }
 
@@ -497,6 +497,31 @@ input:focus,
   display: grid;
   grid-gap: 20px;
   align-content: start;
+}
+
+.social-links {
+  justify-self: center;
+}
+
+.social {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--cyan);
+  display: grid;
+  place-items: center;
+}
+
+.social__link {
+  color: var(--cyan);
+}
+
+.social + .social {
+  margin-left: 20px;
+}
+
+.socials {
+  display: flex;
 }
 
 .attribution {
