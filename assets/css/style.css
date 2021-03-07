@@ -181,7 +181,7 @@ body {
   right: 0;
   top: 0;
   background-image: url("../images/bg-curvy-mobile.svg");
-  background-position: bottom;
+  background-position: bottom left;
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -449,7 +449,7 @@ input,
   border-radius: 100px;
   font-family: "Raleway";
   cursor: pointer;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 input {
@@ -625,7 +625,7 @@ input:focus,
     right: 0;
     top: 0;
     background-image: url("../images/bg-curvy-desktop.svg");
-    background-position: bottom;
+    background-position: bottom left;
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
