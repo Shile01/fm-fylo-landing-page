@@ -187,40 +187,6 @@ body {
   z-index: -1;
 }
 
-/* .intro__image {
-  position: relative;
-  z-index: 1;
-}
-
-.intro__image::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: var(--intro);
-  z-index: -10;
-  position: absolute;
-  background-blend-mode: multiply;
-}
-
-.intro__content {
-  position: relative;
-  z-index: 1;
-}
-
-.intro__content::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: var(--main-bg) url("../images/bg-curvy-mobile.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-blend-mode: overlay;
-  background-position: top;
-  transform: translateY(-40px);
-  z-index: -1;
-} */
-
 .intro__content--heading {
   font-size: 2rem;
   max-width: 30ch;
