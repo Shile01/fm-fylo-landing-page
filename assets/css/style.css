@@ -125,6 +125,7 @@ body {
   font-size: 0.875rem;
   font-family: "Open-sans reg", sans-serif;
   line-height: 1.5;
+  /* overflow-x: hidden; */
 }
 
 .logo {
@@ -136,7 +137,7 @@ body {
 }
 
 .nav__item + .nav__item {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .nav__link {
@@ -181,10 +182,11 @@ body {
   right: 0;
   top: 0;
   background-image: url("../images/bg-curvy-mobile.svg");
-  background-position: bottom left;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
+  /* border: 1px solid blue; */
 }
 
 .intro__content--heading {
@@ -193,6 +195,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-weight: 700;
+  /* border: 1px solid blue; */
 }
 
 .intro__content--c {
@@ -205,6 +208,7 @@ body {
 
 .cta {
   text-align: center;
+  /* border: 1px solid blue; */
 }
 
 .content-wrapper {
@@ -221,7 +225,7 @@ body {
 
 .capa.grid {
   grid-gap: 100px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .wrap {
@@ -234,7 +238,7 @@ body {
 }
 
 .wrap p {
-  max-width: 40ch;
+  /* max-width: 40ch; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -248,7 +252,7 @@ body {
 .productive .container.grid {
   grid-gap: 60px;
   /* border: 1px solid blue; */
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .pro__content {
@@ -261,10 +265,10 @@ body {
 }
 
 .pro__content.wrap p {
-  min-width: 45ch;
+  /* min-width: 45ch; */
   text-align: left;
   margin-left: 0;
-  margin-right: auto;
+  /* margin-right: auto; */
   font-size: 0.95rem;
 }
 
@@ -389,7 +393,7 @@ body {
   left: 0;
   right: 0;
   /* left: 0; */
-  width: 26.5rem;
+  width: 21.25rem;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -518,6 +522,10 @@ input:focus,
     grid-template-columns: 2fr 1fr;
   }
 
+  .nav__item + .nav__item {
+    margin-left: 40px;
+  }
+
   .nav__link {
     font-size: 16px;
   }
@@ -613,5 +621,9 @@ input:focus,
     justify-self: start;
     text-align: left !important;
     transform: translate(30px, -28px);
+  }
+
+  .capa.grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
