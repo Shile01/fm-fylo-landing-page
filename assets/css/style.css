@@ -272,6 +272,17 @@ body {
   font-size: 0.95rem;
 }
 
+.btn__underline span:last-child {
+  width: 30px;
+
+  height: 30px;
+}
+
+.btn__underline span img {
+  width: 30px;
+  height: 30px;
+}
+
 .btn__underline {
   justify-self: start;
   display: flex;
@@ -299,7 +310,7 @@ body {
   transform-origin: center;
 }
 
-.btn__underline span {
+.btn__underline span:first-child {
   margin-right: 5px;
 }
 
@@ -515,6 +526,28 @@ input:focus,
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 790px) {
+  .form-section {
+    width: 42rem;
+
+    height: 400px;
+
+    transform: translateY(-490px);
+  }
+
+  .form-section .unique {
+    max-width: 120ch;
+  }
+  .form-section h4 {
+    font-size: 1.8em;
+  }
+  .error {
+    justify-self: start;
+    text-align: left !important;
+    transform: translate(30px, -28px);
+  }
 }
 
 @media screen and (min-width: 1000px) {
